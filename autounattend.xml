@@ -156,7 +156,6 @@ Get-AppxProvisionedPackage -Online |
 Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.Microsoft3DViewer';
   'Microsoft.BingSearch';
-  'Microsoft.WindowsCalculator';
   'Microsoft.WindowsCamera';
   'Clipchamp.Clipchamp';
   'Microsoft.WindowsAlarms';
@@ -169,14 +168,10 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.WindowsMaps';
   'Microsoft.ZuneVideo';
   'Microsoft.BingNews';
-  'Microsoft.WindowsNotepad';
   'Microsoft.MicrosoftOfficeHub';
   'Microsoft.Office.OneNote';
   'Microsoft.OutlookForWindows';
-  'Microsoft.Paint';
-  'Microsoft.MSPaint';
   'Microsoft.People';
-  'Microsoft.Windows.Photos';
   'Microsoft.PowerAutomateDesktop';
   'MicrosoftCorporationII.QuickAssist';
   'Microsoft.SkypeApp';
@@ -189,7 +184,6 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.WindowsSoundRecorder';
   'Microsoft.BingWeather';
   'Microsoft.ZuneMusic';
-  'Microsoft.WindowsTerminal';
   'Microsoft.Xbox.TCUI';
   'Microsoft.XboxApp';
   'Microsoft.XboxGameOverlay';
@@ -198,7 +192,6 @@ Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.XboxSpeechToTextOverlay';
   'Microsoft.GamingApp';
   'Microsoft.YourPhone';
-  'Microsoft.MicrosoftEdge';
   'Microsoft.MicrosoftEdge.Stable';
   'Microsoft.MicrosoftEdge_8wekyb3d8bbwe';
   'Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe';
